@@ -3,14 +3,10 @@ import { createSlice } from '@reduxjs/toolkit';
 //Початкове значення масива contacts у redux-стейті
 const initialState = {
   contacts: [
-    { id: 'id-1', name: 'Andriy Shevchenko', number: '+38-097-325-34-97' },
-    { id: 'id-2', name: 'Serhiy Rebrov', number: '+38-096-421-65-70' },
-    {
-      id: 'id-3',
-      name: 'Ruslan Rotan',
-      number: '+38-063-889-23-12',
-    },
-    { id: 'id-4', name: 'Andriy Yarmolenko', number: '+38-050-455-67-90' },
+    { id: 'id-1', name: 'Rosie Simpson', number: '+38-097-459-12-56' },
+    { id: 'id-2', name: 'Hermione Kline', number: '+38-095-443-89-12' },
+    { id: 'id-3', name: 'Eden Clements', number: '+38-067-645-17-79' },
+    { id: 'id-4', name: 'Annie Copeland', number: '+38-050-227-91-26' },
   ],
 };
 
