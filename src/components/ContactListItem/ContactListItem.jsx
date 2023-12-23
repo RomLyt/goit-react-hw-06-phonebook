@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './ContactListItem.module.css';
-import { FcPhone } from 'react-icons/fc';
+// import { FcPhone } from 'react-icons/fc';
 import { useDispatch } from 'react-redux';
 import { deleteContact } from 'redux/contactsSlice';
 
@@ -10,7 +10,7 @@ export const ContactListItem = ({ contact }) => {
   return (
     <li className={css.list_item} key={contact.id}>
       <div className={css.contact_wrp}>
-        <FcPhone size={'1.5em'} />
+        {/* <FcPhone size={'1.5em'} /> */}
         {contact.name}: {contact.number}
       </div>
       <button

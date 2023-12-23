@@ -1,4 +1,4 @@
-import { FcAddDatabase } from 'react-icons/fc';
+// import { FcAddDatabase } from 'react-icons/fc';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { object, string } from 'yup';
 import { nanoid } from '@reduxjs/toolkit';
@@ -69,7 +69,7 @@ export const ContactForm = () => {
       validationSchema={schema}
     >
       <Form className={css.form_wrapper}>
-        <FcAddDatabase size={'35px'} className={css.icon} />
+        {/* <FcAddDatabase size={'35px'} className={css.icon} /> */}
         <label className={css.label}>
           Name
           <Field
