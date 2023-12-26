@@ -17,8 +17,8 @@ const regexNumber =
 const schema = object({
   name: string()
     .matches(regexName, 'Name is not valid')
-    .min(2, 'Name too short')
-    .max(15, 'Name too short')
+    .min(3, 'Name too short')
+    .max(15, 'Name too long')
     .trim()
     .required('Name is required'),
   number: string()
